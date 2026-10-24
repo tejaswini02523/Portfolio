@@ -1,4 +1,13 @@
-# Portfolio direction contract
+# Portfolio direction contract — reference update
+
+Current visual authority: the user's attached six-page desktop/mobile reference on 24 October 2026. This update keeps the selected code-led workflow and existing product truth. Match the supplied glossy purple-blue technology world rather than the earlier quiet CSS-only workshop.
+
+## Reference-specific commitments
+Name-led Home hero, lavender-to-blue name gradient, signature wordmark, real raster 3D laptop on desktop and a smaller background laptop on mobile; four truthful collection/learning statistics directly below the hero; six technology tiles; three featured projects; simple interior page titles. About uses biography, four strengths, interests, and a vertical career journey. Skills uses category panels with colorful technology icons. Projects use illustrated concept imagery, tags, functional filters and real details links. Experience retains the explicitly ordered three roles. Contact uses icon cards and a validated glass form. Missing public contacts, employment facts, resume and project destinations must never be guessed.
+
+Signature interaction: pointer-driven laptop tilt, slow floating technology tiles and laptop, staggered title reveals, scroll-triggered section reveals, card hover lift, and low-count canvas particles. Reduce motion across CSS, canvas, and Framer Motion and pause the particle loop when the page is hidden. All structural content remains visible by default.
+
+Below is the initial implementation record for provenance; the reference-specific commitments above supersede its visual descriptions.
 Seed: a0cdebc2. Mode: Experience. Build path: code, selected by user.
 
 The user pinned dark navy, purple/lavender, glass surfaces, abstract technology visuals and animated code. These commitments override catalog aesthetics. Concept: a quiet digital workshop, showing the act of building through a floating, readable code workspace and authored project concept previews.

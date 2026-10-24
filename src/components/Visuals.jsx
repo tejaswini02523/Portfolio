@@ -1,179 +1,102 @@
 import {
-  Code2,
-  Atom,
-  Braces,
-  Database,
-  Heart,
-  ShoppingBag,
-  Star,
-  Sparkles,
-  Terminal,
-} from "lucide-react";
-import { motion, useReducedMotion } from "framer-motion";
+  motion,
+  useReducedMotion,
+  useMotionValue,
+  useSpring,
+  useTransform,
+} from "framer-motion";
+import { TechIcon } from "./TechIcon";
+import { Code2, Check } from "lucide-react";
 
 export function CodeWorkspace() {
   const reduced = useReducedMotion();
+  const x = useMotionValue(0),
+    y = useMotionValue(0);
+  const smoothX = useSpring(x, { stiffness: 70, damping: 22 });
+  const smoothY = useSpring(y, { stiffness: 70, damping: 22 });
+  const rotateY = useTransform(smoothX, [-0.5, 0.5], [-7, 7]);
+  const rotateX = useTransform(smoothY, [-0.5, 0.5], [5, -5]);
+  function tilt(event) {
+    if (reduced || event.pointerType !== "mouse") return;
+    const rect = event.currentTarget.getBoundingClientRect();
+    x.set((event.clientX - rect.left) / rect.width - 0.5);
+    y.set((event.clientY - rect.top) / rect.height - 0.5);
+  }
   return (
     <div
       className="workspace-scene"
-      aria-label="Abstract developer workspace illustration"
+      onPointerMove={tilt}
+      onPointerLeave={() => {
+        x.set(0);
+        y.set(0);
+      }}
+      role="img"
+      aria-label="Futuristic laptop with colorful code and floating technology icons"
     >
-      <div className="orbital orbital-one" />
-      <div className="orbital orbital-two" />
+      <div className="workspace-glow" />
+      <div className="workspace-orbit orbit-one" />
+      <div className="workspace-orbit orbit-two" />
       <motion.div
-        className="code-window"
-        animate={reduced ? {} : { y: [0, -10, 0], rotate: [-3, -2, -3] }}
-        transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+        className="laptop-tilt"
+        style={reduced ? {} : { rotateX, rotateY }}
       >
-        <div className="window-bar">
-          <span className="traffic">
-            <i />
-            <i />
-            <i />
-          </span>
-          <span>portfolio / developer.jsx</span>
-          <Code2 size={15} />
-        </div>
-        <div className="editor">
-          <div className="line-numbers">
-            01
-            <br />
-            02
-            <br />
-            03
-            <br />
-            04
-            <br />
-            05
-            <br />
-            06
-            <br />
-            07
-            <br />
-            08
-            <br />
-            09
-            <br />
-            10
-            <br />
-            11
-          </div>
-          <pre>
-            <code>
-              <span className="syntax-purple">const</span> developer = {"{"}
-              {"\n"} name: <span className="syntax-green">'Tejaswini'</span>,
-              {"\n"} role:{" "}
-              <span className="syntax-green">'Software Developer'</span>,{"\n"}{" "}
-              passion: [{"\n"}{" "}
-              <span className="syntax-green">'Creative interfaces'</span>,{"\n"}{" "}
-              <span className="syntax-green">'Thoughtful experiences'</span>
-              {"\n"} ],{"\n"} <span className="syntax-blue">build</span>: ()
-              =&gt; {"{"}
-              {"\n"} <span className="syntax-purple">return</span> ideas.
-              <span className="syntax-blue">bringToLife</span>();{"\n"} {"}"}
-              {"\n"}
-              {"}"};
-            </code>
-          </pre>
-        </div>
-        <div className="editor-status">
-          <span>
-            <span className="tiny-dot" /> Ready to create
-          </span>
-          <span>JavaScript · UTF-8</span>
-        </div>
+        <motion.img
+          src={`${import.meta.env.BASE_URL}assets/developer-laptop.webp`}
+          className="laptop-image"
+          alt=""
+          width="1200"
+          height="800"
+          fetchPriority="high"
+          animate={reduced ? {} : { y: [0, -10, 0] }}
+          transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+        />
       </motion.div>
-      <div className="float-tech tech-react">
-        <Atom />
-        <span>React</span>
+      {[
+        ["React", "float-react"],
+        ["TypeScript", "float-typescript"],
+        ["Node.js", "float-node"],
+        ["JavaScript", "float-javascript"],
+      ].map(([name, className], i) => (
+        <motion.div
+          key={name}
+          className={`floating-tech ${className}`}
+          aria-hidden="true"
+          animate={reduced ? {} : { y: [0, -8, 0], rotate: [-4, 3, -4] }}
+          transition={{
+            duration: 5 + i,
+            repeat: Infinity,
+            delay: i * 0.4,
+            ease: "easeInOut",
+          }}
+        >
+          <TechIcon name={name} />
+        </motion.div>
+      ))}
+      <div className="code-caption" aria-hidden="true">
+        <Code2 size={14} />
+        <code>ideas.toReality()</code>
+        <span>
+          <Check size={11} /> building
+        </span>
       </div>
-      <div className="float-tech tech-js">
-        <Braces />
-        <span>JavaScript</span>
-      </div>
-      <div className="float-tech tech-db">
-        <Database />
-      </div>
-      <div className="build-chip">
-        <span className="tiny-dot" /> Bringing ideas to life{" "}
-        <Sparkles size={14} />
-      </div>
-      <div className="scene-star star-a" />
-      <div className="scene-star star-b" />
-      <div className="scene-star star-c" />
+      <span className="workspace-star star-one" />
+      <span className="workspace-star star-two" />
+      <span className="workspace-star star-three" />
     </div>
   );
 }
-
 export function ProjectArt({ theme }) {
   return (
-    <div className={`project-art art-${theme}`} aria-hidden="true">
-      {theme === "kids" && (
-        <>
-          <div className="art-grid" />
-          <div className="mini-browser">
-            <div className="mini-bar">
-              <span />
-              <span />
-              <span />
-            </div>
-            <div className="learning-title">
-              A little curious.
-              <br />
-              <b>A lot to discover.</b>
-            </div>
-            <div className="learning-blocks">
-              <span>Aa</span>
-              <span>123</span>
-              <span>
-                <Star />
-              </span>
-            </div>
-            <div className="mini-caption">LET'S LEARN SOMETHING NEW</div>
-          </div>
-          <Sparkles className="art-spark" size={35} />
-        </>
-      )}
-      {theme === "galaxy" && (
-        <>
-          <div className="galaxy-orbit" />
-          <div className="spin-wheel">
-            <span>WIN</span>
-            <Star size={30} />
-            <span>SPIN</span>
-          </div>
-          <div className="spin-pointer" />
-          <div className="galaxy-caption">A universe of rewards.</div>
-        </>
-      )}
-      {theme === "dating" && (
-        <>
-          <div className="connection-ring" />
-          <Heart className="large-heart" size={80} />
-          <div className="connection-label">
-            Good things
-            <br />
-            <b>start with a hello.</b>
-          </div>
-        </>
-      )}
-      {theme === "toolkit" && (
-        <>
-          <div className="shop-window">
-            <ShoppingBag size={32} />
-            <strong>
-              Tools for your
-              <br />
-              next big idea.
-            </strong>
-            <div className="tool-boxes">
-              <Code2 />
-              <Terminal />
-              <Braces />
-            </div>
-          </div>
-        </>
-      )}
+    <div className={`project-art art-${theme}`}>
+      <img
+        src={`${import.meta.env.BASE_URL}assets/project-${theme}.webp`}
+        width="960"
+        height="640"
+        loading="lazy"
+        decoding="async"
+        alt=""
+      />
+      <span className="concept-label">Concept preview</span>
     </div>
   );
 }

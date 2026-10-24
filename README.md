@@ -1,6 +1,6 @@
 # Tejaswini — Developer Portfolio
 
-A responsive six-page React portfolio with a near-black and lavender visual system, a Framer Motion code workspace, custom CSS project concept artwork, accessible navigation, and an honest contact flow. No portraits or externally hosted image assets.
+A responsive six-page React portfolio matching the supplied navy/purple technology reference, with glass surfaces, generated laptop/project artwork, pointer-driven 3D tilt, floating icons, particles, accessible navigation, and an honest contact flow. No portraits or externally hosted image assets.
 
 ## Run locally
 
@@ -21,12 +21,15 @@ HashRouter supports static hosts without rewrite rules: `/#/`, `/#/about`, `/#/s
 ## Structure
 
 ```text
-public/                 favicon
+public/                 favicon and optimized local artwork
+docs/                   illustration provenance and original prompts
 src/
   components/           navigation, footer, project cards, abstract visuals
+  pages/                Home, About, Skills, Projects, Experience, Contact
   data/                 profile, projects, skills, experience
   lib/                  contact validation
-  App.jsx               six pages and routing
+  styles/               base, reusable components, responsive layouts
+  App.jsx               route composition and site shell
   main.jsx              application entry
   styles.css            responsive visual system
 tests/                  contact validation tests
@@ -38,6 +41,8 @@ package.json
 ## Personalize before publishing as a professional record
 
 - `src/data/profile.js`: verified public email, LinkedIn URL, and education. Empty links are omitted, never replaced by broken `#` links.
+- The full display name follows the supplied visual reference; update `fullName` and `name` together when personalizing.
+- Resume downloads appear only when `profile.resume` points to an existing lowercase `.pdf` file in `public/`. For example, add `public/resume.pdf`, then configure `{ url: '/resume.pdf', filename: 'Tejaswini-Resume.pdf' }`. No resume is fabricated or linked by default.
 - `src/data/experience.js`: titles and employers follow the supplied order. No employment dates, duties, or achievements were available to verify; these remain explicit editable placeholders.
 - `src/data/projects.js`: replace illustrative descriptions, artwork, and technology tags with verified case-study details. Set `demo` and `github` to full URLs to show their links. No project URLs are guessed.
 - `src/data/skills.js`: edit the sample technology showcase to reflect your actual skills. Proficiency and years of experience are not claimed.
@@ -51,7 +56,9 @@ To enable submission, copy `.env.example` to `.env.local` and set `VITE_CONTACT_
 
 ## Accessibility and performance
 
-Self-hosted Manrope font, semantic landmarks, skip link, route focus management, visible focus rings, error associations, live submission feedback, touch targets, reduced-motion support, mobile navigation with Escape support, and responsive layouts from 320px. Small CSS-only abstract artwork avoids heavy media downloads. Hash routing avoids static-host deep-link failures.
+Self-hosted Manrope font, semantic landmarks, skip link, route focus management, visible focus rings, error associations, live submission feedback, touch targets, reduced-motion support, mobile navigation with Escape support, and responsive layouts from 320px. Local optimized WebP illustrations total approximately 570 KB, with lazy-loaded project artwork and a prioritized transparent laptop. Canvas particles use a low count, stop while the document is hidden, and render statically for reduced motion. Hash routing avoids static-host deep-link failures.
+
+Illustration prompts, origin, and saved filenames are recorded in `docs/ASSETS.md`. Project images are illustrative concepts, not evidence of deployed functionality.
 
 ## GitHub
 

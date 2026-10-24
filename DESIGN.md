@@ -1,214 +1,222 @@
 ---
 name: Tejaswini Portfolio
-description: A quiet digital workshop in navy, lavender, and translucent layers.
+description: A glossy violet-blue developer portfolio on translucent navy glass.
 colors:
-  canvas: "#0a0b14"
-  text: "#f1eff9"
-  muted: "#aba9bd"
-  purple: "#bb9aff"
-  line: "#ffffff13"
-  card: "#11121c"
-  form: "#13121e"
-  field: "#0d0d17"
-  button-start: "#b187ef"
-  button-end: "#9972dd"
-  button-ink: "#160d27"
-  button-hover: "#c4a4f4"
-  focus: "#c8a8ff"
-  error: "#f1a6be"
+  canvas: "#030b1b"
+  text: "#f3f3ff"
+  muted: "#b7bbd0"
+  purple: "#c49bff"
+  gradient-pink: "#e19bff"
+  gradient-violet: "#b983ff"
+  gradient-blue: "#858aff"
+  button-ink: "#1c1034"
+  secondary-text: "#eee3ff"
+  field-bg: "#18203cc2"
+  field-text: "#f2ebff"
+  focus: "#d6b9ff"
+  error: "#ffb2cc"
 typography:
   display:
     fontFamily: "Manrope Variable, sans-serif"
-    fontSize: "clamp(2.6rem, 5vw, 4.6rem)"
-    fontWeight: 650
-    lineHeight: 1.2
-    letterSpacing: "-.04em"
-  hero:
-    fontFamily: "Manrope Variable, sans-serif"
-    fontSize: "clamp(2.7rem, 4.4vw, 4.1rem)"
-    fontWeight: 650
-    lineHeight: 1.19
-    letterSpacing: "-.04em"
+    fontSize: "clamp(38px, 4.15vw, 59px)"
+    fontWeight: 750
+    lineHeight: 1.12
+    letterSpacing: "-0.035em"
   headline:
     fontFamily: "Manrope Variable, sans-serif"
-    fontSize: "clamp(1.8rem, 3vw, 2.5rem)"
-    fontWeight: 600
-    lineHeight: 1.2
-    letterSpacing: "-.035em"
+    fontSize: "42px"
+    fontWeight: 750
+    lineHeight: 1.3
+    letterSpacing: "-0.035em"
   title:
     fontFamily: "Manrope Variable, sans-serif"
-    fontSize: "1.2rem"
-    fontWeight: 600
-    lineHeight: 1.2
-    letterSpacing: "-.02em"
+    fontSize: "23px"
+    fontWeight: 700
+    lineHeight: 1.25
+    letterSpacing: "-0.025em"
   body:
     fontFamily: "Manrope Variable, sans-serif"
-    fontSize: "15px"
+    fontSize: "14px"
     fontWeight: 400
-    lineHeight: 1.7
-  button:
+    lineHeight: 1.95
+  label:
     fontFamily: "Manrope Variable, sans-serif"
-    fontSize: "12px"
+    fontSize: "11px"
     fontWeight: 650
     lineHeight: 1.7
 rounded:
-  tag: "4px"
-  field: "6px"
-  control: "7px"
-  floating: "10px"
-  code: "12px"
-  panel: "16px"
+  field: "7px"
+  tile: "11px"
+  stat: "12px"
+  panel: "14px"
+  shell: "20px"
+  pill: "30px"
 spacing:
-  inline-small: "8px"
-  inline: "12px"
-  control-gap: "16px"
-  field-gap: "18px"
-  grid-small: "24px"
-  grid: "28px"
-  section-mobile: "48px"
-  section-tablet: "60px"
-  section: "84px"
+  tight: "7px"
+  icon-gap: "9px"
+  compact: "12px"
+  tile-gap: "17px"
+  card-gap: "23px"
+  group: "27px"
+  section: "42px"
 components:
   button-primary:
     textColor: "{colors.button-ink}"
-    typography: "{typography.button}"
-    rounded: "{rounded.control}"
-    padding: "12px 21px"
-  button-primary-hover:
-    backgroundColor: "{colors.button-hover}"
+    rounded: "{rounded.pill}"
+    padding: "11px 22px"
+    typography: "{typography.label}"
+  button-secondary:
+    textColor: "{colors.secondary-text}"
+    rounded: "{rounded.pill}"
+    padding: "11px 22px"
+    typography: "{typography.label}"
   input:
-    backgroundColor: "{colors.field}"
+    backgroundColor: "{colors.field-bg}"
+    textColor: "{colors.field-text}"
     rounded: "{rounded.field}"
-    padding: "12px 13px"
+    padding: "11px 13px"
   card:
-    backgroundColor: "{colors.card}"
     rounded: "{rounded.panel}"
-  filter:
-    rounded: "{rounded.control}"
-    padding: "10px 17px"
+  stat:
+    rounded: "{rounded.stat}"
+    padding: "23px 12px 20px"
+  tech-tile:
+    rounded: "{rounded.tile}"
+    padding: "19px 8px 14px"
 ---
 
 # Design System: Tejaswini Portfolio
 
 ## Overview
 
-**Creative North Star: "A quiet digital workshop"**
+**Creative North Star: "A glossy violet-blue technology workspace"**
 
-The shipped interface places clear introductions and project concepts on a near-black navy canvas. Lavender emphasis, restrained linework, and generous section spacing give the work room to breathe. This follows the dark palette, glass surfaces, and abstract technology commitments in PRODUCT.md and the direction contract.
+The portfolio uses translucent navy surfaces, lavender-to-blue emphasis, and a dimensional raster laptop to present a compact developer showcase. Colored technology icons, luminous timeline nodes, and fine violet borders connect six routes to the user's supplied desktop and mobile reference.
 
-Depth concentrates in the floating code workspace and authored concept artwork. Everyday navigation, filters, and forms remain calm, legible controls. Essential content appears immediately; animation adds atmosphere without withholding information.
+The scene carries the richest depth while cards and controls use quieter glass gradients. Information appears immediately; floating artwork, pointer tilt, and short reveals add movement without hiding structural content. The reference supersedes the earlier quiet CSS-only workshop.
 
 **Key Characteristics:**
-- Near-black foundations with lavender emphasis.
-- Manrope headings with close tracking and balanced wrapping.
-- Fine translucent borders and gently curved panels.
-- Abstract technology artwork with soft ambient depth.
-- Visible focus and reduced-motion support.
+- Navy glass surfaces with fine translucent borders.
+- Violet-to-blue name and action gradients.
+- Compact Manrope typography and dense icon grids.
+- Raster laptop artwork with floating technology tiles.
+- Glowing timeline nodes, visible focus, and reduced-motion alternatives.
 
 ## Colors
 
-Lavender connects actions, highlighted heading phrases, links, and linework across the dark neutral foundation.
+The palette combines deep navy foundations with pink-violet and periwinkle light. Frontmatter values are normative; local gradient fills remain authored component CSS in the sidecar.
 
 ### Primary
+- **Lavender (`purple`):** recurring emphasis, caret, and footer detail.
+- **Pink, violet, and blue gradient stops:** the name gradient runs at (110deg); primary actions use a separate brighter gradient at (105deg).
 
-- **Lavender accent** (`purple`): heading emphasis, icons, timeline detail, and caret color.
-- **Action lavender** (`button-start`, `button-end`, `button-hover`): the primary action gradient and its brighter hover state, paired with `button-ink`.
-- **Focus lavender** (`focus`): keyboard outlines on all interactive elements.
+### Secondary
+- Technology icons keep their locally assigned colors from `TechIcon.jsx`. Blue, green, yellow, and orange identify technologies rather than competing action hierarchies.
 
 ### Neutral
+- **Navy (`canvas`):** ambient background foundation.
+- **Reading white (`text`):** headings and prominent content.
+- **Muted lavender-gray (`muted`):** paragraph copy.
+- **Field navy and field white:** recessed fields and their text.
+- **Focus lavender and error rose:** keyboard focus and validation feedback.
 
-- **Midnight canvas** (`canvas`): the page foundation.
-- **Pale text** (`text`) and **muted lavender gray** (`muted`): primary reading and supporting prose.
-- **Translucent white line** (`line`): shared separators and panel edges.
-- **Dark card**, **form**, and **field** surfaces: close tonal steps distinguish containers and editable regions.
-
-The pink `error` token belongs to field validation. Blue, green, and gold accents in concept artwork and syntax highlighting are local illustration colors, not additional application action palettes.
-
-**The Lavender Thread Rule.** Carry lavender through emphasis and interaction while keeping ordinary reading on neutral text.
+### Named Rules
+**The Gradient Emphasis Rule.** Keep the violet-blue gradient on name emphasis, primary actions, and selected filters; retain neutral reading text around it.
 
 ## Typography
 
-**Display Font:** Manrope Variable, with sans-serif fallback.
-**Body Font:** Manrope Variable, with sans-serif fallback.
-**Code Font:** browser monospace for the illustrated editor.
+**Display Font:** Manrope Variable (sans-serif fallback).
+**Body Font:** Manrope Variable (sans-serif fallback).
 
-**Character:** a single geometric sans family connects expressive headings with compact controls. Close tracking belongs to headings; ordinary prose retains normal tracking.
+Manrope supplies closely tracked headings and compact supporting copy. The signature wordmark uses the source's system cursive stack; this existing exception is not a reusable display-font rule.
 
 ### Hierarchy
+- **Display:** the frontmatter hero ramp; balanced name lines, preceded by a smaller (19px), lighter (450) salutation within the heading.
+- **Headline:** the frontmatter role for interior route titles.
+- **Title:** section headings use the title role; project titles vary between (14px) compact and (19px) full cards.
+- **Body:** biography uses the body role with a (65ch) measure; hero copy is (13px), line-height (1.95), and (47ch) wide. Interior introductions use (14px), line-height (1.7).
+- **Label:** buttons use the label role; navigation is (12px), technology labels (11px), and form labels (12px).
+- **Stat value:** tabular numerals, weight (700), size (31px), line-height (1.3), tracking (-0.035em).
 
-- **Display:** the `display` token governs interior page headings; the home introduction uses the `hero` variant.
-- **Headline:** the `headline` token is the base heading role. Section headings specialize to 28px on desktop; the contact invitation uses 30px with a 1.4 line height.
-- **Title:** the `title` token supplies the base; project titles use 19px and career titles use 21px.
-- **Body:** introductory prose uses the `body` token with a 60ch measure. Biography and skills text use 13px; hero support uses 14px with a 1.9 line height.
-- **Button:** the `button` token controls compact action labels. Navigation uses 12px at regular weight.
-
-Responsive heading clamps and contextual body sizes remain component rules rather than a fabricated universal modular scale.
+At (520px), interior titles become (33px), the hero first name (39px), and its gradient name line (35px). Supporting copy follows explicit source overrides rather than uniform scaling.
 
 ## Layout
 
-The centered desktop container is capped at 1184px with 48px side gutters. Gutters step to 32px at 1100px, 22px at 800px, 20px at 540px, and 16px at 360px. The minimum supported canvas is 320px.
+The desktop shell is capped at (1380px), inset (18px), with a content container capped at (1120px) and total horizontal subtraction of (96px). The hero is a near-equal two-column grid (1.02fr / 1fr), gap (25px), minimum height (485px). The laptop scene is (405px) tall.
 
-Projects use two equal columns with the `grid` gap; skills use three columns with the `grid-small` gap. At 800px the hero and contact layout stack and skills become two columns. At 540px projects, skills, biography, strengths, and paired form fields become single columns. Filters wrap naturally. Project artwork remains clipped within its panel.
+Four compact statistics remain in one row. The home technology grid has six columns, becoming three at (520px). Featured projects use three columns; the full project listing uses two. About, Experience, and Contact use tailored paired columns. Icon gaps cluster around (9–12px), tile gaps (17px), card gaps (23–27px), and section separation (42px).
 
-Section spacing steps through the section tokens at the 800px and 540px breakpoints. Desktop introductions have a 760px maximum width. Supporting prose uses local character measures rather than expanding across the page.
+Responsive rules occur at minimum (1600px) and maximum (1150px), (900px), (700px), (520px), and (360px). Navigation becomes a toggle-controlled three-column glass menu at (700px). At (520px), the shell becomes edge-to-edge, content has (20px) side gutters, paired content and fields stack, and featured projects become horizontal preview rows. At (360px), gutters narrow to (16px).
+
+On phones at (520px) and below, the laptop scene becomes an absolute background layer behind copy: width (245px), height (240px), opacity (0.52), right offset (-86px). At (360px), opacity drops to (0.45) and the right offset to (-100px). It remains decorative and pointer-inert while copy stays above it.
 
 ## Elevation & Depth
 
-Ordinary cards rely on tonal surfaces and subtle borders. The signature workspace uses a rotated code window, blurred floating technology tiles, radial glows, and soft shadows. The action gradient also has a faint ambient shadow. These are native parts of the selected glass-and-technology world.
+Depth combines translucent gradients, backdrop blur, diffuse shadows, radial illumination, and raster artwork. General glass panels use blur (12px); floating technology badges use blur (10px). Primary actions have inset highlights and ambient violet shadow. Cards lift on hover; the laptop has an image shadow and radial glow.
 
 ### Shadow Vocabulary
+- **Primary action:** `0 6px 22px #9663ed30, inset 0 1px #f7dfff5c`.
+- **Primary hover:** `0 9px 29px #9862ed55, inset 0 1px #ffffff70`.
+- **Project hover:** `0 17px 40px #07091d80`.
+- **Timeline node:** `0 4px 15px #9454df4d, inset 0 0 0 3px #43246a`.
+- **Laptop image:** `drop-shadow(0 24px 24px #06021a7a)`.
 
-- **Primary action:** `0 7px 28px #895ad421` gives the gradient action a faint lavender lift.
-- **Code workspace:** `0 26px 70px #0006` separates the illustrated editor from its orbital background.
-- **Floating detail:** `0 12px 30px #0003` supports technology tiles and the build indicator.
+### Named Rules
+**The Luminous Glass Rule.** Pair translucent navy fills with fine violet-blue borders; use diffuse glow for dimensional art, timeline nodes, and active actions.
 
-**The Soft Depth Rule.** Use diffuse shadows for floating artwork; use borders and tonal separation for ordinary content panels.
+Control transitions use (0.2–0.3s), project image scaling and section reveals (0.6s), and title settling (0.8s). The laptop floats over (7s), technology badges over (5–8s). Pointer tilt uses spring stiffness (70) and damping (22). Reduced motion removes those animations and CSS transforms. The low-count canvas particle loop pauses when the document is hidden. Structural content is visible by default.
 
 ## Shapes
 
-Panels share the `panel` radius. Controls use the `control` radius, fields use `field`, and static tags use `tag`. The code window and floating tiles use their respective radius tokens. Circular timeline nodes, active-navigation dots, and orbital ellipses provide small geometric counterpoints to rectangular content.
-
-Borders are normally one pixel and translucent. Rounded project panels clip their illustrations; the decorative hero geometry is clipped at the hero boundary.
+Pill actions and filters sit alongside softly rounded panels. The frontmatter records reused field, tile, stat, panel, shell, and pill radii. Social controls and timeline nodes are circular. Artwork clips inside project cards. Form actions are a squarer exception with (8px) corners. Borders are fine (1px) strokes with component-specific translucent tints.
 
 ## Components
 
 ### Buttons
 
-Compact, gently curved actions combine text and line icons. Primary buttons use the action gradient with dark text; secondary buttons use a nearly transparent fill, pale text, and a fine border. Both have a minimum height of 46px. Hover lifts them 2px over 0.2s; primary hover becomes a solid lighter lavender, while secondary hover brightens its fill and border. Disabled submission lowers opacity to 0.65. Keyboard focus uses a two-pixel lavender outline offset by five pixels.
+Compact luminous actions: primary uses a pink-violet-blue gradient, dark ink, pill radius, and minimum height (44px). Secondary uses navy glass, pale text, and a violet border. Hover lifts both by (3px), brightens primary fill, and increases secondary border contrast. Focus uses a (2px) outline offset (5px). Form actions use the squarer shape described above.
 
-### Filters and tags
+### Chips
 
-Filters are interactive bordered controls with a 44px minimum height and wrapping layout. Selection adds a translucent purple fill and brighter lavender text. Tags are static, small rectangular metadata with quiet borders. Do not treat a tag as a button without the interactive control behavior.
+Project tags use tinted navy, (4px) corners, (3px 7px) padding, and (9px) text. Filters have (28px) radius, (8px 21px) padding, minimum height (40px), and wrap as needed. Selection adds a bright gradient, dark text, and heavier weight.
 
 ### Cards / Containers
 
-Project and skills cards share a dark fill, fine border, and panel radius. Project cards divide clipped artwork from a padded text area (24px 25px 19px on desktop). Their border becomes lavender on hover. Skills panels use 28px desktop padding. Contact forms use a related dark surface with 33px padding; responsive variants reduce these paddings.
+Project cards use glass gradients, panel corners, and fine blue-violet borders. Hover lifts (6px), adds diffuse shadow, and scales artwork to (1.04). Full-card content padding is (20px 21px 19px). Contact cards add colored icon squares and move right (4px) on hover.
 
 ### Inputs / Fields
 
-Dark recessed fields have a fine translucent border, field radius, 12px text, and at least 45px height. Labels sit above them; required markers are lavender. Invalid fields change border to pink and render an associated error message. Focus retains the shared visible outline. Textareas resize vertically.
+Recessed navy fields use the frontmatter radius and padding, (12px) text, and minimum height (44px). Focus shifts the border to lavender and brightens the fill, with a global visible outline. Invalid fields use a rose border and nearby error message. Paired fields stack on phones.
 
 ### Navigation
 
-The desktop header is 92px high with six compact links and a separate contact action. The active route brightens and receives a small lavender dot. At 800px the header becomes 76px high and a 44px menu button opens a three-column translucent navigation panel; the active route uses a tinted surface. Escape closes the panel and restores focus to the toggle.
+Desktop links have (27px) gaps, muted text, and lavender hover/current-route emphasis. The current route has a short glowing marker below it. Mobile navigation is a blurred glass overlay with (44px) minimum-height link cells and tinted active background.
 
-### Floating code workspace
+### Compact statistics and technology tiles
 
-The illustrated editor uses literal code, monospace syntax colors, translucent linework, orbital geometry, and small floating tiles. Its seven-second ease-in-out animation moves vertically by ten pixels and rotates between minus three and minus two degrees. Reduced motion removes the float and transitions, retaining the static minus-three-degree composition. This artwork is a signature illustration, not a general content-container template.
+Four glass stat cards place large tabular values above small labels. Home technology tiles center colorful icons above compact labels with subtle hover lift. Six desktop tiles become a three-column phone grid. Skill groups use the same icon vocabulary without forcing each icon into an individual card.
+
+### Glowing timeline
+
+A thin lavender connector links circular violet gradient nodes with inset rings and diffuse glows. Entries group role, company, date, and optional duties. Compact entries stack metadata. Mobile nodes shrink from (29px) to (26px).
+
+### Raster laptop scene
+
+The laptop comes from `public/assets/developer-laptop.webp` with radial glow, orbit linework, floating technology tiles, and a compact code caption. Mouse pointer tilt runs only when reduced motion is off. Phone composition follows Layout above. Project imagery also uses WebP assets with concept-preview labels.
+
+Source ownership: `src/styles/base.css` defines global typography, shell, hero, and primitives; `src/styles/components.css` defines route components; `src/styles/responsive.css` contains responsive and reduced-motion overrides. Six route components live in `src/pages`; shared patterns live in `src/components`.
 
 ## Do's and Don'ts
 
 ### Do:
-
-- **Do** use lavender to connect emphasis, actions, and interactive detail.
-- **Do** keep ordinary cards quiet with tonal fills and fine borders.
-- **Do** preserve visible keyboard focus and the reduced-motion alternative.
-- **Do** stack grids and paired fields at the observed mobile breakpoints.
+- **Do** preserve the violet-blue name gradient and dimensional raster laptop.
+- **Do** use translucent navy glass, fine violet-blue borders, and diffuse glow.
+- **Do** retain compact stat cards and colorful technology tiles.
+- **Do** keep phone artwork behind legible copy and preserve responsive grid changes.
+- **Do** preserve visible keyboard focus and reduced-motion alternatives.
 
 ### Don't:
-
-- **Don't** introduce people imagery; the confirmed visual direction uses abstract technology artwork.
-- **Don't** delay essential content behind entrance animations.
-- **Don't** turn illustration syntax colors into competing application action colors.
-
-Not canonized: very small decorative editor captions and concept metadata remain local artwork details, not reusable reading-size rules. The finish pass removed the greeting eyebrow, project overlines, and star glyph; this documentation pass does not alter application files.
+- **Don't** introduce people imagery; the confirmed world uses technology imagery.
+- **Don't** hide essential content behind animation.
+- **Don't** replace ordinary reading text with gradient fills.
+- **Don't** copy incidental tiny labels or the system cursive signature into new display typography.

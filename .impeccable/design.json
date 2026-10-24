@@ -1,338 +1,377 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-24T09:36:26.699Z",
+  "generatedAt": "2026-10-24T10:21:50.903952+00:00",
   "title": "Design System: Tejaswini Portfolio",
   "extensions": {
     "colorMeta": {
       "canvas": {
-        "displayName": "canvas",
         "role": "neutral",
+        "displayName": "Canvas",
         "tonalRamp": [
-          "oklch(15% 0.0193 278.97)",
-          "oklch(26.4% 0.0193 278.97)",
-          "oklch(37.9% 0.0193 278.97)",
-          "oklch(49.3% 0.0193 278.97)",
-          "oklch(60.7% 0.0193 278.97)",
-          "oklch(72.1% 0.0193 278.97)",
-          "oklch(83.6% 0.0193 278.97)",
-          "oklch(95% 0.0193 278.97)"
+          "oklch(15% 0.0379 258.69)",
+          "oklch(26% 0.0379 258.69)",
+          "oklch(38% 0.0379 258.69)",
+          "oklch(49% 0.0379 258.69)",
+          "oklch(61% 0.0379 258.69)",
+          "oklch(72% 0.0379 258.69)",
+          "oklch(84% 0.0379 258.69)",
+          "oklch(95% 0.0379 258.69)"
         ]
       },
       "text": {
-        "displayName": "text",
         "role": "neutral",
+        "displayName": "Text",
         "tonalRamp": [
-          "oklch(15% 0.0135 295.32)",
-          "oklch(26.4% 0.0135 295.32)",
-          "oklch(37.9% 0.0135 295.32)",
-          "oklch(49.3% 0.0135 295.32)",
-          "oklch(60.7% 0.0135 295.32)",
-          "oklch(72.1% 0.0135 295.32)",
-          "oklch(83.6% 0.0135 295.32)",
-          "oklch(95% 0.0135 295.32)"
+          "oklch(15% 0.0160 286.10)",
+          "oklch(26% 0.0160 286.10)",
+          "oklch(38% 0.0160 286.10)",
+          "oklch(49% 0.0160 286.10)",
+          "oklch(61% 0.0160 286.10)",
+          "oklch(72% 0.0160 286.10)",
+          "oklch(84% 0.0160 286.10)",
+          "oklch(95% 0.0160 286.10)"
         ]
       },
       "muted": {
-        "displayName": "muted",
         "role": "neutral",
+        "displayName": "Muted",
         "tonalRamp": [
-          "oklch(15% 0.0286 290.28)",
-          "oklch(26.4% 0.0286 290.28)",
-          "oklch(37.9% 0.0286 290.28)",
-          "oklch(49.3% 0.0286 290.28)",
-          "oklch(60.7% 0.0286 290.28)",
-          "oklch(72.1% 0.0286 290.28)",
-          "oklch(83.6% 0.0286 290.28)",
-          "oklch(95% 0.0286 290.28)"
+          "oklch(15% 0.0299 277.13)",
+          "oklch(26% 0.0299 277.13)",
+          "oklch(38% 0.0299 277.13)",
+          "oklch(49% 0.0299 277.13)",
+          "oklch(61% 0.0299 277.13)",
+          "oklch(72% 0.0299 277.13)",
+          "oklch(84% 0.0299 277.13)",
+          "oklch(95% 0.0299 277.13)"
         ]
       },
       "purple": {
-        "displayName": "purple",
         "role": "primary",
+        "displayName": "Purple",
         "tonalRamp": [
-          "oklch(15% 0.1448 297.90)",
-          "oklch(26.4% 0.1448 297.90)",
-          "oklch(37.9% 0.1448 297.90)",
-          "oklch(49.3% 0.1448 297.90)",
-          "oklch(60.7% 0.1448 297.90)",
-          "oklch(72.1% 0.1448 297.90)",
-          "oklch(83.6% 0.1448 297.90)",
-          "oklch(95% 0.1448 297.90)"
+          "oklch(15% 0.1449 301.98)",
+          "oklch(26% 0.1449 301.98)",
+          "oklch(38% 0.1449 301.98)",
+          "oklch(49% 0.1449 301.98)",
+          "oklch(61% 0.1449 301.98)",
+          "oklch(72% 0.1449 301.98)",
+          "oklch(84% 0.1449 301.98)",
+          "oklch(95% 0.1449 301.98)"
         ]
       },
-      "line": {
-        "displayName": "line",
-        "role": "neutral",
-        "tonalRamp": [
-          "oklch(15% 0.0000 89.88)",
-          "oklch(26.4% 0.0000 89.88)",
-          "oklch(37.9% 0.0000 89.88)",
-          "oklch(49.3% 0.0000 89.88)",
-          "oklch(60.7% 0.0000 89.88)",
-          "oklch(72.1% 0.0000 89.88)",
-          "oklch(83.6% 0.0000 89.88)",
-          "oklch(95% 0.0000 89.88)"
-        ]
-      },
-      "card": {
-        "displayName": "card",
-        "role": "neutral",
-        "tonalRamp": [
-          "oklch(15% 0.0204 279.78)",
-          "oklch(26.4% 0.0204 279.78)",
-          "oklch(37.9% 0.0204 279.78)",
-          "oklch(49.3% 0.0204 279.78)",
-          "oklch(60.7% 0.0204 279.78)",
-          "oklch(72.1% 0.0204 279.78)",
-          "oklch(83.6% 0.0204 279.78)",
-          "oklch(95% 0.0204 279.78)"
-        ]
-      },
-      "form": {
-        "displayName": "form",
-        "role": "neutral",
-        "tonalRamp": [
-          "oklch(15% 0.0242 287.67)",
-          "oklch(26.4% 0.0242 287.67)",
-          "oklch(37.9% 0.0242 287.67)",
-          "oklch(49.3% 0.0242 287.67)",
-          "oklch(60.7% 0.0242 287.67)",
-          "oklch(72.1% 0.0242 287.67)",
-          "oklch(83.6% 0.0242 287.67)",
-          "oklch(95% 0.0242 287.67)"
-        ]
-      },
-      "field": {
-        "displayName": "field",
-        "role": "neutral",
-        "tonalRamp": [
-          "oklch(15% 0.0209 283.86)",
-          "oklch(26.4% 0.0209 283.86)",
-          "oklch(37.9% 0.0209 283.86)",
-          "oklch(49.3% 0.0209 283.86)",
-          "oklch(60.7% 0.0209 283.86)",
-          "oklch(72.1% 0.0209 283.86)",
-          "oklch(83.6% 0.0209 283.86)",
-          "oklch(95% 0.0209 283.86)"
-        ]
-      },
-      "button-start": {
-        "displayName": "button start",
+      "gradient-pink": {
         "role": "primary",
+        "displayName": "Gradient Pink",
         "tonalRamp": [
-          "oklch(15% 0.1525 301.22)",
-          "oklch(26.4% 0.1525 301.22)",
-          "oklch(37.9% 0.1525 301.22)",
-          "oklch(49.3% 0.1525 301.22)",
-          "oklch(60.7% 0.1525 301.22)",
-          "oklch(72.1% 0.1525 301.22)",
-          "oklch(83.6% 0.1525 301.22)",
-          "oklch(95% 0.1525 301.22)"
+          "oklch(15% 0.1548 315.26)",
+          "oklch(26% 0.1548 315.26)",
+          "oklch(38% 0.1548 315.26)",
+          "oklch(49% 0.1548 315.26)",
+          "oklch(61% 0.1548 315.26)",
+          "oklch(72% 0.1548 315.26)",
+          "oklch(84% 0.1548 315.26)",
+          "oklch(95% 0.1548 315.26)"
         ]
       },
-      "button-end": {
-        "displayName": "button end",
+      "gradient-violet": {
         "role": "primary",
+        "displayName": "Gradient Violet",
         "tonalRamp": [
-          "oklch(15% 0.1583 298.64)",
-          "oklch(26.4% 0.1583 298.64)",
-          "oklch(37.9% 0.1583 298.64)",
-          "oklch(49.3% 0.1583 298.64)",
-          "oklch(60.7% 0.1583 298.64)",
-          "oklch(72.1% 0.1583 298.64)",
-          "oklch(83.6% 0.1583 298.64)",
-          "oklch(95% 0.1583 298.64)"
+          "oklch(15% 0.1801 302.17)",
+          "oklch(26% 0.1801 302.17)",
+          "oklch(38% 0.1801 302.17)",
+          "oklch(49% 0.1801 302.17)",
+          "oklch(61% 0.1801 302.17)",
+          "oklch(72% 0.1801 302.17)",
+          "oklch(84% 0.1801 302.17)",
+          "oklch(95% 0.1801 302.17)"
+        ]
+      },
+      "gradient-blue": {
+        "role": "primary",
+        "displayName": "Gradient Blue",
+        "tonalRamp": [
+          "oklch(15% 0.1697 279.05)",
+          "oklch(26% 0.1697 279.05)",
+          "oklch(38% 0.1697 279.05)",
+          "oklch(49% 0.1697 279.05)",
+          "oklch(61% 0.1697 279.05)",
+          "oklch(72% 0.1697 279.05)",
+          "oklch(84% 0.1697 279.05)",
+          "oklch(95% 0.1697 279.05)"
         ]
       },
       "button-ink": {
-        "displayName": "button ink",
         "role": "neutral",
+        "displayName": "Button Ink",
         "tonalRamp": [
-          "oklch(15% 0.0516 297.12)",
-          "oklch(26.4% 0.0516 297.12)",
-          "oklch(37.9% 0.0516 297.12)",
-          "oklch(49.3% 0.0516 297.12)",
-          "oklch(60.7% 0.0516 297.12)",
-          "oklch(72.1% 0.0516 297.12)",
-          "oklch(83.6% 0.0516 297.12)",
-          "oklch(95% 0.0516 297.12)"
+          "oklch(15% 0.0680 295.38)",
+          "oklch(26% 0.0680 295.38)",
+          "oklch(38% 0.0680 295.38)",
+          "oklch(49% 0.0680 295.38)",
+          "oklch(61% 0.0680 295.38)",
+          "oklch(72% 0.0680 295.38)",
+          "oklch(84% 0.0680 295.38)",
+          "oklch(95% 0.0680 295.38)"
         ]
       },
-      "button-hover": {
-        "displayName": "button hover",
-        "role": "primary",
+      "secondary-text": {
+        "role": "neutral",
+        "displayName": "Secondary Text",
         "tonalRamp": [
-          "oklch(15% 0.1163 302.14)",
-          "oklch(26.4% 0.1163 302.14)",
-          "oklch(37.9% 0.1163 302.14)",
-          "oklch(49.3% 0.1163 302.14)",
-          "oklch(60.7% 0.1163 302.14)",
-          "oklch(72.1% 0.1163 302.14)",
-          "oklch(83.6% 0.1163 302.14)",
-          "oklch(95% 0.1163 302.14)"
+          "oklch(15% 0.0392 303.43)",
+          "oklch(26% 0.0392 303.43)",
+          "oklch(38% 0.0392 303.43)",
+          "oklch(49% 0.0392 303.43)",
+          "oklch(61% 0.0392 303.43)",
+          "oklch(72% 0.0392 303.43)",
+          "oklch(84% 0.0392 303.43)",
+          "oklch(95% 0.0392 303.43)"
+        ]
+      },
+      "field-bg": {
+        "role": "neutral",
+        "displayName": "Field Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0543 270.12)",
+          "oklch(26% 0.0543 270.12)",
+          "oklch(38% 0.0543 270.12)",
+          "oklch(49% 0.0543 270.12)",
+          "oklch(61% 0.0543 270.12)",
+          "oklch(72% 0.0543 270.12)",
+          "oklch(84% 0.0543 270.12)",
+          "oklch(95% 0.0543 270.12)"
+        ]
+      },
+      "field-text": {
+        "role": "neutral",
+        "displayName": "Field Text",
+        "tonalRamp": [
+          "oklch(15% 0.0276 301.76)",
+          "oklch(26% 0.0276 301.76)",
+          "oklch(38% 0.0276 301.76)",
+          "oklch(49% 0.0276 301.76)",
+          "oklch(61% 0.0276 301.76)",
+          "oklch(72% 0.0276 301.76)",
+          "oklch(84% 0.0276 301.76)",
+          "oklch(95% 0.0276 301.76)"
         ]
       },
       "focus": {
-        "displayName": "focus",
-        "role": "primary",
+        "role": "neutral",
+        "displayName": "Focus",
         "tonalRamp": [
-          "oklch(15% 0.1249 300.49)",
-          "oklch(26.4% 0.1249 300.49)",
-          "oklch(37.9% 0.1249 300.49)",
-          "oklch(49.3% 0.1249 300.49)",
-          "oklch(60.7% 0.1249 300.49)",
-          "oklch(72.1% 0.1249 300.49)",
-          "oklch(83.6% 0.1249 300.49)",
-          "oklch(95% 0.1249 300.49)"
+          "oklch(15% 0.1007 303.24)",
+          "oklch(26% 0.1007 303.24)",
+          "oklch(38% 0.1007 303.24)",
+          "oklch(49% 0.1007 303.24)",
+          "oklch(61% 0.1007 303.24)",
+          "oklch(72% 0.1007 303.24)",
+          "oklch(84% 0.1007 303.24)",
+          "oklch(95% 0.1007 303.24)"
         ]
       },
       "error": {
-        "displayName": "error",
         "role": "neutral",
+        "displayName": "Error",
         "tonalRamp": [
-          "oklch(15% 0.0931 358.58)",
-          "oklch(26.4% 0.0931 358.58)",
-          "oklch(37.9% 0.0931 358.58)",
-          "oklch(49.3% 0.0931 358.58)",
-          "oklch(60.7% 0.0931 358.58)",
-          "oklch(72.1% 0.0931 358.58)",
-          "oklch(83.6% 0.0931 358.58)",
-          "oklch(95% 0.0931 358.58)"
+          "oklch(15% 0.0949 357.40)",
+          "oklch(26% 0.0949 357.40)",
+          "oklch(38% 0.0949 357.40)",
+          "oklch(49% 0.0949 357.40)",
+          "oklch(61% 0.0949 357.40)",
+          "oklch(72% 0.0949 357.40)",
+          "oklch(84% 0.0949 357.40)",
+          "oklch(95% 0.0949 357.40)"
         ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero name lines."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Interior route titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Biography reading copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Action labels."
       }
     },
     "shadows": [
       {
         "name": "primary-action",
-        "value": "0 7px 28px #895ad421",
-        "purpose": "Ambient action lift."
+        "value": "0 6px 22px #9663ed30, inset 0 1px #f7dfff5c",
+        "purpose": "Primary action at rest."
       },
       {
-        "name": "code-workspace",
-        "value": "0 26px 70px #0006",
-        "purpose": "Floating editor."
+        "name": "project-hover",
+        "value": "0 17px 40px #07091d80",
+        "purpose": "Project hover."
       },
       {
-        "name": "floating-detail",
-        "value": "0 12px 30px #0003",
-        "purpose": "Technology illustration tiles."
+        "name": "timeline-node",
+        "value": "0 4px 15px #9454df4d, inset 0 0 0 3px #43246a",
+        "purpose": "Glowing timeline node."
       }
     ],
     "motion": [
       {
-        "name": "control-transition",
-        "value": "background .2s, border-color .2s, transform .2s",
-        "purpose": "Button states; disabled under reduced motion."
+        "name": "control-duration",
+        "value": "0.25s",
+        "purpose": "Button transitions."
       },
       {
-        "name": "workspace-float",
-        "value": "7s easeInOut infinite; y: [0,-10,0]; rotate: [-3,-2,-3]",
-        "purpose": "Framer Motion illustration; disabled under reduced motion."
+        "name": "reveal-duration",
+        "value": "0.6s",
+        "purpose": "Section reveals."
+      },
+      {
+        "name": "reveal-ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Reveals and project image zoom."
+      },
+      {
+        "name": "laptop-float",
+        "value": "7s",
+        "purpose": "Laptop float; disabled under reduced motion."
       }
     ],
     "breakpoints": [
       {
-        "name": "wide",
-        "value": "1500px"
+        "name": "wide-min",
+        "value": "1600px"
       },
       {
-        "name": "compact-desktop",
-        "value": "1100px"
+        "name": "desktop-max",
+        "value": "1150px"
       },
       {
-        "name": "tablet",
-        "value": "800px"
+        "name": "tablet-max",
+        "value": "900px"
       },
       {
-        "name": "phone",
-        "value": "540px"
+        "name": "menu-max",
+        "value": "700px"
       },
       {
-        "name": "small-phone",
+        "name": "phone-max",
+        "value": "520px"
+      },
+      {
+        "name": "small-phone-max",
         "value": "360px"
       }
     ]
   },
   "components": [
     {
-      "name": "primary button",
+      "name": "Primary button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Compact action with hover lift and visible focus.",
-      "html": "<button class=\"ds-button-primary\">Explore my work</button>",
-      "css": ".ds-button-primary{font-family:'Manrope Variable',sans-serif;line-height:1.7;min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:16px;padding:12px 21px;border:1px solid transparent;border-radius:7px;font-size:12px;font-weight:650;transition:background .2s,border-color .2s,transform .2s;background:linear-gradient(120deg,#b187ef,#9972dd);color:#160d27;box-shadow:0 7px 28px #895ad421}.ds-button-primary:hover{transform:translateY(-2px);background:#c4a4f4}.ds-button-primary:focus-visible{outline:2px solid #c8a8ff;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
+      "description": "Primary button extracted from shipped component styles.",
+      "html": "<button class=\"ds-button ds-button-primary\">View my work</button>",
+      "css": ".ds-button{display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 9px;\n  border: 1px solid transparent;\n  border-radius: 30px;\n  padding: 11px 22px;\n  min-height: 44px;\n  font-size: 11px;\n  font-weight: 650;\n  position: relative;\n  transition:\n    transform 0.25s,\n    background 0.25s,\n    box-shadow 0.25s,\n    border-color 0.25s;\n  white-space: nowrap;}\n.ds-button:hover{transform: translateY(-3px);}\n.ds-button-primary{color: #1c1034;\n  background: linear-gradient(105deg, #dc8cf3, #b292ff 58%, #8b8cff);\n  box-shadow:\n    0 6px 22px #9663ed30,\n    inset 0 1px #f7dfff5c;}\n.ds-button-primary:hover{box-shadow:\n    0 9px 29px #9862ed55,\n    inset 0 1px #ffffff70;\n  background: linear-gradient(105deg, #e6a6f7, #c1a7ff 58%, #a4a4ff);}.ds-button{font-family:'Manrope Variable',sans-serif;line-height:1.7;}.ds-button:focus-visible{outline:2px solid #d6b9ff;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}.ds-button:hover{transform:none}}"
     },
     {
-      "name": "secondary button",
+      "name": "Secondary button",
       "kind": "button",
-      "description": "Compact action with hover lift and visible focus.",
-      "html": "<button class=\"ds-button-secondary\">Get in touch</button>",
-      "css": ".ds-button-secondary{font-family:'Manrope Variable',sans-serif;line-height:1.7;min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:16px;padding:12px 21px;border:1px solid transparent;border-radius:7px;font-size:12px;font-weight:650;transition:background .2s,border-color .2s,transform .2s;border-color:#ffffff21;background:#ffffff03;color:#e5dfef}.ds-button-secondary:hover{transform:translateY(-2px);background:#ffffff0c;border-color:#a987c0}.ds-button-secondary:focus-visible{outline:2px solid #c8a8ff;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}}"
+      "refersTo": "button-secondary",
+      "description": "Secondary button extracted from shipped component styles.",
+      "html": "<button class=\"ds-button ds-button-secondary\">Let’s connect</button>",
+      "css": ".ds-button{display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 9px;\n  border: 1px solid transparent;\n  border-radius: 30px;\n  padding: 11px 22px;\n  min-height: 44px;\n  font-size: 11px;\n  font-weight: 650;\n  position: relative;\n  transition:\n    transform 0.25s,\n    background 0.25s,\n    box-shadow 0.25s,\n    border-color 0.25s;\n  white-space: nowrap;}\n.ds-button:hover{transform: translateY(-3px);}\n.ds-button-secondary{border-color: #8271ba80;\n  color: #eee3ff;\n  background: linear-gradient(110deg, #151c36bb, #0a1022cc);}\n.ds-button-secondary:hover{border-color: #c19af2;\n  background: #35235070;\n  box-shadow: 0 7px 24px #7046b52b;}.ds-button{font-family:'Manrope Variable',sans-serif;line-height:1.7;}.ds-button:focus-visible{outline:2px solid #d6b9ff;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}.ds-button:hover{transform:none}}"
     },
     {
       "name": "Contact field",
       "kind": "input",
       "refersTo": "input",
-      "description": "Recessed field with visible focus and invalid state.",
-      "html": "<label class=\"ds-label\" for=\"ds-name\">Your name</label><input class=\"ds-field\" id=\"ds-name\" placeholder=\"Alex Morgan\"/>",
-      "css": ".ds-label{font-family:'Manrope Variable',sans-serif;line-height:1.7;display:block;font-size:11px;margin-bottom:9px;color:#d3c8e3}.ds-field{font-family:'Manrope Variable',sans-serif;line-height:1.7;width:100%;background:#0d0d17;border:1px solid #ffffff20;border-radius:6px;padding:12px 13px;color:#eee5fa;font-size:12px;min-height:45px;resize:vertical}.ds-field::placeholder{color:#978ba8}.ds-field:focus-visible{outline:2px solid #c8a8ff;outline-offset:5px}.ds-field[aria-invalid=true]{border-color:#e18eaa}"
-    },
-    {
-      "name": "Project filter",
-      "kind": "chip",
-      "refersTo": "filter",
-      "description": "Wrapping filter with a tinted selected state.",
-      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">Web apps</button>",
-      "css": ".ds-filter{font-family:'Manrope Variable',sans-serif;line-height:1.7;font-size:12px;padding:10px 17px;min-height:44px;border:1px solid #ffffff17;border-radius:7px;background:transparent;color:#b5abc7}.ds-filter:hover{border-color:#a683d0}.ds-filter[aria-pressed=true]{background:#a984d323;color:#d9baff;border-color:#9973c16b}.ds-filter:focus-visible{outline:2px solid #c8a8ff;outline-offset:5px}"
+      "description": "Contact field extracted from shipped component styles.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-name\">Your name</label><input id=\"ds-name\" placeholder=\"Alex Morgan\" /></div>",
+      "css": ".ds-field{margin-bottom: 19px;\n  min-width: 0;}\n.ds-field label{display: block;\n  margin-bottom: 8px;\n  font-size: 12px;\n  color: #dfddf2;}\n.ds-field input,\n.ds-field textarea{width: 100%;\n  min-width: 0;\n  min-height: 44px;\n  font-size: 12px;\n  color: #f2ebff;\n  border: 1px solid #8490c640;\n  border-radius: 7px;\n  background: #18203cc2;\n  padding: 11px 13px;\n  resize: vertical;\n  transition:\n    border-color 0.2s,\n    background 0.2s;}\n.ds-field input::placeholder,\n.ds-field textarea::placeholder{color: #aaa9c3;}\n.ds-field input:focus,\n.ds-field textarea:focus{border-color: #ba91eb;\n  background: #1c2341;}\n.ds-field [aria-invalid=\"true\"]{border-color: #f29bb8;}.ds-field{font-family:'Manrope Variable',sans-serif;line-height:1.7;}.ds-field input{font:inherit;font-size:12px}.ds-field input:focus-visible{outline:2px solid #d6b9ff;outline-offset:5px}"
     },
     {
       "name": "Project card",
       "kind": "card",
       "refersTo": "card",
-      "description": "Quiet framed content surface.",
-      "html": "<article class=\"ds-card\"><div class=\"ds-info\"><h3>Project concept</h3><p>An illustrative interface concept.</p><span class=\"ds-tag\">React</span></div></article>",
-      "css": ".ds-card{font-family:'Manrope Variable',sans-serif;line-height:1.7;color:#f1eff9;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#11121c;transition:border-color .2s}.ds-card:hover{border-color:#b495de66}.ds-info{padding:24px 25px 19px}.ds-info h3{font-size:19px;font-weight:600;line-height:1.2;letter-spacing:-.02em;margin:0}.ds-info p{font-size:11px;color:var(--muted);margin:10px 0 18px}.ds-tag{background:#ffffff05;border:1px solid #ffffff0c;border-radius:4px;padding:3px 8px;font-size:8px;color:#b7afc6}"
+      "description": "Project card extracted from shipped component styles.",
+      "html": "<article class=\"ds-project-card\"><div class=\"ds-project-info\"><h3>Project concept</h3><p>Illustrative interface concept.</p><div class=\"ds-tags\"><span>React</span></div></div></article>",
+      "css": ".ds-project-card{border: 1px solid #758fc432;\n  border-radius: 14px;\n  overflow: hidden;\n  background: linear-gradient(145deg, #111c3380, #0b14266e);\n  height: 100%;\n  transition:\n    border-color 0.3s,\n    box-shadow 0.3s,\n    transform 0.3s;}\n.ds-project-card:hover{transform: translateY(-6px);\n  border-color: #a67bdf8c;\n  box-shadow: 0 17px 40px #07091d80;}\n.ds-project-info{min-width: 0;\n  padding: 20px 21px 19px;}\n.ds-project-info h3{font-size: 19px;}\n.ds-project-info > p{font-size: 12px;\n  line-height: 1.9;\n  margin-top: 14px;\n  max-width: 58ch;}\n.ds-tags{display: flex;\n  flex-wrap: wrap;\n  gap: 7px;\n  margin-top: 13px;}\n.ds-tags > span{display: inline-flex;\n  align-items: center;\n  gap: 5px;\n  padding: 3px 7px;\n  border-radius: 4px;\n  background: #1a285165;\n  color: #d0d4ed;\n  font-size: 9px;\n  line-height: 1.5;}.ds-project-card{font-family:'Manrope Variable',sans-serif;line-height:1.7;color:#f3f3ff}.ds-project-info h3{margin:0;font-weight:650;line-height:1.25;letter-spacing:-.02em}.ds-project-info p{color:var(--muted)}@media(prefers-reduced-motion:reduce){.ds-project-card{transition:none}.ds-project-card:hover{transform:none}}"
+    },
+    {
+      "name": "Project filter",
+      "kind": "chip",
+      "description": "Project filter extracted from shipped component styles.",
+      "html": "<button class=\"ds-filter ds-active\" aria-pressed=\"true\">Web apps</button>",
+      "css": ".ds-filter{background: #10193177;\n  color: #c6c8e0;\n  border: 1px solid #7f89b33d;\n  border-radius: 28px;\n  min-height: 40px;\n  padding: 8px 21px;\n  font-size: 11px;\n  transition:\n    background 0.2s,\n    border-color 0.2s,\n    color 0.2s;}\n.ds-filter:hover{border-color: #b68eed;\n  color: #eddbff;}\n.ds-filter.ds-active{background: linear-gradient(110deg, #da85f1, #a98cff);\n  color: #21122f;\n  font-weight: 750;\n  border-color: transparent;\n  box-shadow: 0 5px 17px #925ee92b;}.ds-filter{font-family:'Manrope Variable',sans-serif;line-height:1.7;}.ds-filter:focus-visible{outline:2px solid #d6b9ff;outline-offset:5px}"
     },
     {
       "name": "Desktop navigation",
       "kind": "nav",
-      "description": "Compact links with active-route dot.",
-      "html": "<nav class=\"ds-nav\"><a href=\"#home\" aria-current=\"page\">Home</a><a href=\"#projects\">Projects</a><a href=\"#contact\">Contact</a></nav>",
-      "css": ".ds-nav{font-family:'Manrope Variable',sans-serif;line-height:1.7;display:flex;align-items:center;gap:27px;margin:auto;font-size:12px;color:#b4b1c5}.ds-nav a{color:inherit;text-decoration:none;position:relative;padding:14px 0}.ds-nav a:hover,.ds-nav a[aria-current=page]{color:#eee6ff}.ds-nav a[aria-current=page]::after{content:'';position:absolute;bottom:5px;left:40%;width:4px;height:4px;border-radius:50%;background:var(--purple)}.ds-nav a:focus-visible{outline:2px solid #c8a8ff;outline-offset:5px}"
+      "description": "Desktop navigation extracted from shipped component styles.",
+      "html": "<nav class=\"ds-main-nav\"><a href=\"#home\" class=\"ds-active\" aria-current=\"page\">Home</a><a href=\"#projects\">Projects</a><a href=\"#contact\">Contact</a></nav>",
+      "css": ".ds-main-nav{display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 27px;\n  margin-inline: auto;}\n.ds-main-nav a{position: relative;\n  color: #c5c6d9;\n  font-size: 12px;\n  padding: 14px 0;\n  transition: color 0.2s;}\n.ds-main-nav a:hover,\n.ds-main-nav a.ds-active{color: #dcb9ff;}\n.ds-main-nav a.ds-active::after{content: \"\";\n  position: absolute;\n  width: 5px;\n  height: 3px;\n  background: #b687ff;\n  border-radius: 4px;\n  bottom: 5px;\n  left: calc(50% - 2px);\n  box-shadow: 0 2px 9px #986aff;}.ds-main-nav{font-family:'Manrope Variable',sans-serif;line-height:1.7;}.ds-main-nav a{text-decoration:none}.ds-main-nav a:focus-visible{outline:2px solid #d6b9ff;outline-offset:5px}"
+    },
+    {
+      "name": "Compact statistic",
+      "kind": "card",
+      "refersTo": "stat",
+      "description": "Compact statistic extracted from shipped component styles.",
+      "html": "<div class=\"ds-stat-card\"><strong>04</strong><span>Project concepts</span></div>",
+      "css": ".ds-stat-card{text-align: center;\n  padding: 23px 12px 20px;\n  border: 1px solid #9181c34a;\n  border-radius: 12px;\n  background: linear-gradient(145deg, #1d21412b, #111a332e);\n  box-shadow: inset 0 1px #c6b3ff09;\n  position: relative;}\n.ds-stat-card strong{display: block;\n  font-size: 31px;\n  line-height: 1.3;\n  font-weight: 700;\n  letter-spacing: -0.035em;\n  font-variant-numeric: tabular-nums;}\n.ds-stat-card > span{font-size: 11px;\n  color: #bdc0da;\n  display: block;\n  margin-top: 8px;}.ds-stat-card{font-family:'Manrope Variable',sans-serif;line-height:1.7;color:#f3f3ff}"
+    },
+    {
+      "name": "Timeline node",
+      "kind": "custom",
+      "description": "Timeline node extracted from shipped component styles.",
+      "html": "<div class=\"ds-timeline-item\"><span class=\"ds-timeline-node\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"m16 18 6-6-6-6M8 6l-6 6 6 6\" /></svg></span><strong>Career role</strong></div>",
+      "css": ".ds-timeline-item{position: relative;\n  padding: 0 0 43px 37px;\n  margin-left: 16px;\n  border-left: 1px solid #b385f2a6;}\n.ds-timeline-node{position: absolute;\n  top: -1px;\n  left: -15px;\n  width: 29px;\n  height: 29px;\n  border: 1px solid #d2a6ff;\n  border-radius: 50%;\n  background: radial-gradient(circle at 35% 30%, #d989fa, #8b4bdd 70%);\n  color: #f3ddff;\n  display: grid;\n  place-items: center;\n  box-shadow:\n    0 4px 15px #9454df4d,\n    inset 0 0 0 3px #43246a;}.ds-timeline-item{font-family:'Manrope Variable',sans-serif;line-height:1.7;color:#f3f3ff}"
     }
   ],
   "narrative": {
-    "northStar": "A quiet digital workshop",
-    "overview": "The shipped interface places clear introductions and project concepts on a near-black navy canvas. Lavender emphasis, restrained linework, and generous section spacing give the work room to breathe. This follows the dark palette, glass surfaces, and abstract technology commitments in PRODUCT.md and the direction contract.\n\nDepth concentrates in the floating code workspace and authored concept artwork. Everyday navigation, filters, and forms remain calm, legible controls. Essential content appears immediately; animation adds atmosphere without withholding information.",
+    "northStar": "A glossy violet-blue technology workspace",
+    "overview": "The portfolio uses translucent navy surfaces, lavender-to-blue emphasis, and a dimensional raster laptop to present a compact developer showcase. Colored technology icons, luminous timeline nodes, and fine violet borders connect six routes to the user's supplied desktop and mobile reference.\n\nThe scene carries the richest depth while cards and controls use quieter glass gradients. Information appears immediately; floating artwork, pointer tilt, and short reveals add movement without hiding structural content. The reference supersedes the earlier quiet CSS-only workshop.",
     "keyCharacteristics": [
-      "Near-black foundations with lavender emphasis.",
-      "Manrope headings with close tracking and balanced wrapping.",
-      "Fine translucent borders and gently curved panels.",
-      "Abstract technology artwork with soft ambient depth.",
-      "Visible focus and reduced-motion support."
+      "Navy glass surfaces with fine translucent borders.",
+      "Violet-to-blue name and action gradients.",
+      "Compact Manrope typography and dense icon grids.",
+      "Raster laptop artwork with floating technology tiles.",
+      "Glowing timeline nodes, visible focus, and reduced-motion alternatives."
     ],
     "rules": [
       {
-        "name": "The Lavender Thread Rule",
-        "body": "Carry lavender through emphasis and interaction while keeping ordinary reading on neutral text.",
+        "name": "The Gradient Emphasis Rule",
+        "body": "Keep the violet-blue gradient on name emphasis, primary actions, and selected filters; retain neutral reading text around it.",
         "section": "colors"
       },
       {
-        "name": "The Soft Depth Rule",
-        "body": "Use diffuse shadows for floating artwork; use borders and tonal separation for ordinary content panels.",
+        "name": "The Luminous Glass Rule",
+        "body": "Pair translucent navy fills with fine violet-blue borders; use diffuse glow for dimensional art, timeline nodes, and active actions.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do use lavender to connect emphasis, actions, and interactive detail.",
-      "Do keep ordinary cards quiet with tonal fills and fine borders.",
-      "Do preserve visible keyboard focus and the reduced-motion alternative.",
-      "Do stack grids and paired fields at the observed mobile breakpoints."
+      "Do preserve the violet-blue name gradient and dimensional raster laptop.",
+      "Do use translucent navy glass, fine violet-blue borders, and diffuse glow.",
+      "Do retain compact stat cards and colorful technology tiles.",
+      "Do keep phone artwork behind legible copy and preserve responsive grid changes.",
+      "Do preserve visible keyboard focus and reduced-motion alternatives."
     ],
     "donts": [
-      "Don't introduce people imagery; the confirmed visual direction uses abstract technology artwork.",
-      "Don't delay essential content behind entrance animations.",
-      "Don't turn illustration syntax colors into competing application action colors."
+      "Don't introduce people imagery; the confirmed world uses technology imagery.",
+      "Don't hide essential content behind animation.",
+      "Don't replace ordinary reading text with gradient fills.",
+      "Don't copy incidental tiny labels or the system cursive signature into new display typography."
     ]
   }
 }

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
 import { ArrowUpRight, Github, Menu, X, Code2 } from "lucide-react";
 import { profile } from "../data/profile";
+import { ResumeLink } from "./UI";
 
 const links = [
   ["/", "Home"],
@@ -22,10 +23,8 @@ export function Header() {
     <header className="site-header">
       <div className="container nav-inner">
         <Link to="/" className="wordmark" aria-label="Tejaswini home">
-          <span className="logo-mark">
-            <Code2 size={22} />
-          </span>
-          tejaswini<span className="logo-dot">.</span>
+          <span className="signature">Tejaswini</span>
+          <span className="signature-dot">.</span>
         </Link>
         <button
           ref={toggle}
@@ -59,6 +58,7 @@ export function Header() {
             </NavLink>
           ))}
         </nav>
+        <ResumeLink className="nav-resume" />
         <Link className="nav-contact" to="/contact">
           Let's talk <ArrowUpRight size={15} />
         </Link>

@@ -6,6 +6,7 @@ export const skills = [
     items: [
       "React",
       "JavaScript",
+      "TypeScript",
       "HTML5",
       "CSS3",
       "Tailwind CSS",
